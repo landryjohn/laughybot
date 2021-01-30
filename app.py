@@ -33,7 +33,7 @@ logger = logging.getLogger(__name__)
 # Define commands handlers. 
 def start(update: Update, context: CallbackContext) -> None:
     """Send a message when bot receive the command /start"""
-    update.message.reply_text("Salut toi ! Si tu voeux un peu rigoler, entre la commande /joke et j'irai chercher pour toi du contenu amusant")
+    update.message.reply_text("Salut toi ! Si tu veux un peu rigoler, entres la commande /joke et j'irai chercher pour toi du contenu amusant 😂... #d@iki")
 
 def help_command(update: Update, context: CallbackContext) -> None:
     """Send a message when bot receive the command /help"""
