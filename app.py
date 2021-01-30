@@ -19,7 +19,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Callb
 from bs4 import BeautifulSoup
 from moviepy.editor import VideoFileClip
 
-TOKEN = "1645251736:AAHgYXX2_ivIsj5M48vDz42Kme5gT6KEuco"
+TOKEN = "YOURTOKEN"
 
 PORT = int(os.environ.get("PORT", 5000))
 
